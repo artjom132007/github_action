@@ -3,7 +3,7 @@ name: Get tabs in files
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   build:
