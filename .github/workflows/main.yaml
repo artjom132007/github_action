@@ -1,6 +1,9 @@
 name: Get tabs in files
 
-on: [pull_request]
+on:
+  push:
+    branches:
+      -main
 
 jobs:
   build:
